@@ -1,7 +1,7 @@
 from flask import Flask
-from database import db
 
-from views import health_blueprint, books_blueprint
+from database import db
+from views import books_blueprint, health_blueprint
 
 app = Flask(__name__)
 

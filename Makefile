@@ -25,7 +25,7 @@ check:
 	$(MAKE) check-format check-import-order lint test
 
 test:
-	pytest
+	pipenv run pytest --disable-warnings
 
 help:
 	@echo "Available targets:"
