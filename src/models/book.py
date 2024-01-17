@@ -15,6 +15,8 @@ class BookRequest(BaseModel):
 
 
 class Book(LibraryBaseModel):
+    __tablename__ = "books"
+
     title = db.Column(db.String(100), nullable=False)
     author = db.Column(db.String(50), nullable=False)
     published_date = db.Column(db.String(20), nullable=False)

@@ -10,6 +10,7 @@ flask = "*"
 pylint = "*"
 import-order = "*"
 black = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.9"

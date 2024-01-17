@@ -1,14 +1,20 @@
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
+from database import db
 
-from views import health_blueprint
+from views import health_blueprint, books_blueprint
 
 app = Flask(__name__)
 
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///database.sqlite.db"
-db = SQLAlchemy(app)
+
+db.init_app(app)
+
+with app.app_context():
+    db.create_all()
+
 
 app.register_blueprint(health_blueprint)
+app.register_blueprint(books_blueprint)
 
 
 if __name__ == "__main__":

@@ -21,7 +21,7 @@ class LibraryBaseModel(db.Model):
 
     @classmethod
     def get(cls, item_id):
-        return cls.query.get(item_id)
+        return cls.query.get(item_id).serialize()
 
     @classmethod
     def update(cls, data: BaseModel, id: int):

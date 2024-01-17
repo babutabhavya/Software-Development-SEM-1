@@ -1,1 +1,2 @@
-from .health import *
+from .book import books_blueprint
+from .health import health_blueprint
