@@ -1,0 +1,37 @@
+name: Python CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - '*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Check if it's a non-main branch
+      run: |
+        if [ "${{ github.event_name }}" == "push" ] && [ "${{ github.ref }}" != "refs/heads/main" ]; then
+          echo "This is a non-main branch."
+        fi
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pipenv
+        make setup
+
+    - name: Run make commands
+      run: make check
