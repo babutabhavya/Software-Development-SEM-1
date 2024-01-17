@@ -1,5 +1,6 @@
 from flask import Blueprint
-from src.models.response import ResponseModel
+
+from models.response import ResponseModel
 
 health_blueprint = Blueprint("health", __name__, url_prefix="/health")
 
