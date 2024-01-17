@@ -7,6 +7,9 @@ name = "pypi"
 flask = "*"
 
 [dev-packages]
+pylint = "*"
+import-order = "*"
+black = "*"
 
 [requires]
 python_version = "3.9"
