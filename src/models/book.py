@@ -21,3 +21,6 @@ class Book(LibraryBaseModel):
     author = db.Column(db.String(50), nullable=False)
     published_date = db.Column(db.String(20), nullable=False)
     available_copies = db.Column(db.Integer, nullable=False)
+
+    library_id = db.Column(db.Integer, db.ForeignKey("libraries.id"))
+    library = db.relationship("Library", back_populates="books")
