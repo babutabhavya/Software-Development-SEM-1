@@ -16,7 +16,7 @@ check-import-order:
 	pipenv run isort **/* --filter-files --profile black -c
 
 import-order:
-	isort **/* --filter-files --profile black
+	pipenv run isort **/* --filter-files --profile black
 
 lint:
 	pipenv run pylint ./src

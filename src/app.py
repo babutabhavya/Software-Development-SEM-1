@@ -1,7 +1,7 @@
 from flask import Flask
 
 from database import db
-from views import books_blueprint, health_blueprint
+from views import books_blueprint, health_blueprint, libraries_blueprint
 
 app = Flask(__name__)
 
@@ -15,7 +15,7 @@ with app.app_context():
 
 app.register_blueprint(health_blueprint)
 app.register_blueprint(books_blueprint)
-
+app.register_blueprint(libraries_blueprint)
 
 if __name__ == "__main__":
     app.run(debug=True, port=5050)
