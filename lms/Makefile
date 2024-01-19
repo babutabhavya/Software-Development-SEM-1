@@ -1,16 +1,21 @@
+makemigrations:
+	pipenv run python manage.py makemigrations
+
+migrate:
+	pipenv run python manage.py migrate
 
 run:
-	pipenv run python src/app.py
+	pipenv run python manage.py runserver
 
 setup:
 	pipenv run pipenv install --dev
 
 check-format:
-	pipenv run black ./src --skip-string-normalization --check
+	pipenv run black ./lms --skip-string-normalization --check --exclude='migrations'
 	exit $$?
 
 format:
-	pipenv run black ./src --skip-string-normalization
+	pipenv run black ./lms --skip-string-normalization --exclude='migrations'
 
 check-import-order:
 	pipenv run isort **/* --filter-files --profile black -c
@@ -19,7 +24,7 @@ import-order:
 	pipenv run isort **/* --filter-files --profile black
 
 lint:
-	pipenv run pylint ./src
+	pipenv run pylint . --load-plugins pylint_django --django-settings-module=lms
 
 check:
 	$(MAKE) check-format check-import-order lint test

@@ -1,0 +1,5 @@
+[MASTER]
+ignore=tests.py, urls.py, manage.py, migrations, settings.py
+
+[tests.*]
+ignore=tests
