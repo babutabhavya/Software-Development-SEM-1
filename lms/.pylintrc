@@ -1,0 +1,6 @@
+[MASTER]
+ignore=tests.py, urls.py, manage.py, migrations, settings.py
+disable=C0114,C0115,E0401,R0901,C0415,C0116
+
+[tests.*]
+ignore=tests

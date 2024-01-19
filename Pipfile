@@ -4,9 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-flask = "*"
-pydantic = "*"
-flask-sqlalchemy = "*"
+djangorestframework = "*"
+django = "*"
 
 [dev-packages]
 pylint = "*"
@@ -14,6 +13,8 @@ import-order = "*"
 black = "*"
 pytest = "*"
 pytest-cov = "*"
+pylint-django = "*"
+pytest-django = "*"
 
 [requires]
 python_version = "3.9"

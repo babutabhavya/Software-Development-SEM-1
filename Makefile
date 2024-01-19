@@ -1,31 +1,36 @@
+makemigrations:
+	cd lms && pipenv run python manage.py makemigrations
+
+migrate:
+	cd lms && pipenv run python manage.py migrate
 
 run:
-	pipenv run python src/app.py
+	cd lms && pipenv run python manage.py runserver
 
 setup:
-	pipenv run pipenv install --dev
+	cd lms && pipenv run pipenv install --dev
 
 check-format:
-	pipenv run black ./src --skip-string-normalization --check
+	cd lms && pipenv run black ./lms --skip-string-normalization --check --exclude='migrations'
 	exit $$?
 
 format:
-	pipenv run black ./src --skip-string-normalization
+	cd lms && pipenv run black ./lms --skip-string-normalization --exclude='migrations'
 
 check-import-order:
-	pipenv run isort **/* --filter-files --profile black -c
+	cd lms && pipenv run isort **/* --filter-files --profile black -c
 
 import-order:
-	pipenv run isort **/* --filter-files --profile black
+	cd lms && pipenv run isort **/* --filter-files --profile black
 
 lint:
-	pipenv run pylint ./src
+	cd lms && pipenv run pylint . --load-plugins pylint_django --django-settings-module=lms
 
 check:
 	$(MAKE) check-format check-import-order lint test
 
 test:
-	pipenv run pytest --cov=src --cov-report=html --disable-warnings
+	cd lms && pipenv run pytest --disable-warnings
 
 help:
 	@echo "Available targets:"
