@@ -4,7 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pydantic = "*"
 djangorestframework = "*"
 django = "*"
 
@@ -15,6 +14,7 @@ black = "*"
 pytest = "*"
 pytest-cov = "*"
 pylint-django = "*"
+pytest-django = "*"
 
 [requires]
 python_version = "3.9"
