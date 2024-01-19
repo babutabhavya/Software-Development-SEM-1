@@ -6,3 +6,6 @@ from .serializers import LibrarySerializer
 class LibraryViewSet(viewsets.ModelViewSet):
     queryset = Library.objects.all()
     serializer_class = LibrarySerializer
+
+    def perform_create(self, serializer):
+        serializer.save(users=[])
