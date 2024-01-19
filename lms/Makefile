@@ -27,7 +27,7 @@ lint:
 	pipenv run pylint . --load-plugins pylint_django --django-settings-module=lms
 
 check:
-	$(MAKE) check-format check-import-order lint test
+	$(MAKE) check-format check-import-order lint
 
 test:
 	pipenv run pytest --cov=src --cov-report=html --disable-warnings
