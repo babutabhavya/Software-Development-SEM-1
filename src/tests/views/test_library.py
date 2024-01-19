@@ -2,7 +2,7 @@ import json
 
 import pytest
 
-from app import app
+from src.app import app
 from database import db
 
 app.config["TESTING"] = True

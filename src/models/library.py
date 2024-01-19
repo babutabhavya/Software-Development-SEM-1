@@ -13,5 +13,4 @@ class Library(LibraryBaseModel):
     __tablename__ = "libraries"
 
     name = db.Column(db.String(100), nullable=False)
-
-    books = db.relationship("Book", back_populates="library")
+    books = db.relationship("Book", backref="libraries", lazy=True)
