@@ -24,7 +24,7 @@ import-order:
 	cd lms && pipenv run isort **/* --filter-files --profile black
 
 lint:
-	cd lms && pipenv run pylint . --load-plugins pylint_django --django-settings-module=lms
+	cd lms && pipenv run pylint . --load-plugins pylint_django --django-settings-module=lms -v
 
 check:
 	$(MAKE) check-format check-import-order lint test
