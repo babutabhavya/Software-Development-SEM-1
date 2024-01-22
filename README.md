@@ -25,3 +25,5 @@ Some of the git concepts can be well-viewed in the commit history as well as clo
 - [Activity Diagram](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/diagrams/Activity-Diagram.png?raw=true)
 
 - [Use Case Diagram](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/diagrams/Use-Case-Diagram.png?raw=true)
+
+- [Class Diagram](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/diagrams/Class-Diagram.png?raw=true)
