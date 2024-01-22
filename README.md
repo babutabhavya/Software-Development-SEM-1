@@ -23,7 +23,7 @@ Some of the git concepts can be well-viewed in the commit history as well as clo
 ### 2. Diagrams
 
 - Activity Diagram
-![LMS Activity Diagram](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/diagrams/Activity-Diagram.jpg?raw=true)
+![LMS Activity Diagram](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/diagrams/Activity-Diagram.png?raw=true)
 
 - Use Case Diagram
-![LMS Use Case Diagram](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/diagrams/Use-Case-Diagram.jpg?raw=true)
+![LMS Use Case Diagram](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/diagrams/Use-Case-Diagram.png?raw=true)
