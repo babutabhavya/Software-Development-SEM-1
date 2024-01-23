@@ -1,4 +1,4 @@
-# Library Management System
+# Library Management System [![Python CI](https://github.com/babutabhavya/Software-Development-SEM-1/actions/workflows/deploy.yml/badge.svg)](https://github.com/babutabhavya/Software-Development-SEM-1/actions/workflows/deploy.yml)
 
 #### ***Software Development Project, Masters of Computer Science by Bhavya Babuta, student at SRH, Berlin School of Technology***
 
