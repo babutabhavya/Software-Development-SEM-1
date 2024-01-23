@@ -4,6 +4,7 @@
 
 ## Table of Contents
 
+- [Prerequisites](#prerequisites)
 1. [Git](#1-git)
 2. [Diagrams](#2-diagrams)
 3. [Requirements Engineering](#3-requirements-engineering)
@@ -15,6 +16,16 @@
 9. [Unit Tests](#8-unit-tests)
 10. [IDE](#10-ide)
 11. [Functional Programming](#12-functional-programming)
+
+## Prerequisites
+
+Before running the build management commands, make sure you have the following installed on your system:
+
+- **Python:** The project uses Python, and you can install it from [python.org](https://www.python.org/).
+- **Pip:** Pip is the package installer for Python. You can check if you have it installed by running `pip --version`. If not, you can install it using the instructions on the [official Pip website](https://pip.pypa.io/en/stable/installation/).
+- **Pipenv:** Pipenv is used for virtual environment management. You can install it using `pip install pipenv`.
+- **Makefile:** The build management commands are defined in the Makefile. Make sure you have `make` installed on your system. On Linux, you can typically install it with `sudo apt-get install make`, and on macOS, it comes pre-installed.
+
 
 ## 1. Git
 
