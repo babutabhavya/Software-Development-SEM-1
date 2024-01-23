@@ -4,20 +4,17 @@
 
 ## Table of Contents
 
-1. [Git](#git)
-2. [Diagrams](#diagrams)
-   - [Activity Diagram](#activity-diagram)
-   - [Use Case Diagram](#use-case-diagram)
-   - [Class Diagram](#class-diagram)
-3. [Requirements Engineering](#requirements-engineering)
-4. [Analysis Learning Unit](#analysis-learning-unit)
-5. [DDD](#ddd)
-6. [Metrics](#metrics)
-7. [Clean Code Development](#clean-code-development)
-8. [Build Management](#build-management)
-9. [Unit Tests](#unit-tests)
-10. [IDE](#ide)
-11. [Functional Programming](#functional-programming)
+1. [Git](#1-git)
+2. [Diagrams](#2-diagrams)
+3. [Requirements Engineering](#3-requirements-engineering)
+4. [Analysis Learning Unit](#4-analysis-learning-unit)
+5. [DDD](#5-ddd)
+6. [Metrics](#6-metrics)
+7. [Clean Code Development](#7-clean-code-development)
+8. [Build Management](#8-build-management)
+9. [Unit Tests](#8-unit-tests)
+10. [IDE](#10-ide)
+11. [Functional Programming](#12-functional-programming)
 
 ## 1. Git
 
