@@ -101,6 +101,10 @@ Some of the git concepts can be well-viewed in the commit history as well as clo
 - [PyLint code ratings](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/images/pylint/pylint.png)
 - [pytest code coverage](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/images/pytest/pytest.png)
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=babutabhavya_Software-Development-SEM-1&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=babutabhavya_Software-Development-SEM-1)
+
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-black.svg)](https://sonarcloud.io/summary/new_code?id=babutabhavya_Software-Development-SEM-1)
+
 ---
 
 ## 7. Clean Code Development
