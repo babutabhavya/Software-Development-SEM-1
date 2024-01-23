@@ -84,6 +84,12 @@ Some of the git concepts can be well-viewed in the commit history as well as clo
 
 - Security
 
+### [JIRA](https://bhavya-babuta.atlassian.net/jira/software/projects/LS/boards/5)
+
+- Kanban Board [Screenshot](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/images/jira/kanban-board.png?raw=true)
+- Timeline [Screenshot](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/images/jira/timeline.png?raw=true)
+- Backlog Story Board [Screenshot](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/images/jira/backlog.png?raw=true)
+- Backlog Board [Screenshot](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/images/jira/board.png?raw=true)
 ---
 
 ## 4. Analysis Learning Unit
@@ -133,7 +139,7 @@ Maintaining a clear separation between test and dev environments prevents uninte
 By employing the "import-order" package, code's imports are neat and tidy, fostering clarity and teamwork. It ensures a consistent import order, making it simpler for everyone to understand and manage the project's dependencies. The follow an order in which the frameworks are imported first, then the third party outside the framework and then the internal modules are arranged.
 
 
-### B.) [Clean Code Development Cheat Sheet](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/docs/sonarcube/clean-code-development.pdf)
+### B.) [Clean Code Development Cheat Sheet](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/docs/clean-code-development.pdf)
 
 ---
 
