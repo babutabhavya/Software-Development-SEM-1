@@ -63,13 +63,26 @@ Some of the git concepts can be well-viewed in the commit history as well as clo
 ### Functional Requirements
 
 - User Management
-Ability to create new years such that they can be assigned to libraries and books can be borrowed to them.
 
-- Borrowing and Returning:
+- Borrowing and Returning
 
-Users should be able to enquie about books and return them. The system can enforce due dates and send notifications for overdue books. Librarians should have the ability to manage and extend borrowing periods.
+- Library Management
+
+    - Library User Management
+
+    - Library Books Management
 
 ### Non-Functional Requirements
+
+- Performance
+
+- Scalability
+
+- Compatibility
+
+- Reliability
+
+- Security
 
 ---
 
@@ -116,9 +129,7 @@ Maintaining a clear separation between test and dev environments prevents uninte
 By employing the "import-order" package, code's imports are neat and tidy, fostering clarity and teamwork. It ensures a consistent import order, making it simpler for everyone to understand and manage the project's dependencies. The follow an order in which the frameworks are imported first, then the third party outside the framework and then the internal modules are arranged.
 
 
-### B.)
-
-[Clean Code Development Cheat Sheet](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/docs/sonarcube/clean-code-development.pdf)
+### B.) [Clean Code Development Cheat Sheet](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/docs/sonarcube/clean-code-development.pdf)
 
 ---
 
