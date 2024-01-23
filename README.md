@@ -153,26 +153,26 @@ Some of the git concepts can be well-viewed in the commit history as well as clo
 ### A.)
 
 1. Code Comments and Docstrings
-Code comments are like helpful notes to yourself and others, explaining how your code works and making it easier to understand.
+Code comments are like helpful notes to yourself and others, explaining how your code works and making it easier to understand. To see this, refer [here](https://github.com/babutabhavya/Software-Development-SEM-1/blob/93f5cc24d9793c2ad99b2839f866d981105084e0/lms/book/views.py#L6)
 
 2. Exception Handling
-Using "as" in exception handling (eg. except Exception as e) is a good Python practice because it allows to catch and inspect the specific exception instance, providing valuable information for debugging or logging.
+Using "as" in exception handling (eg. except Exception as e) is a good Python practice because it allows to catch and inspect the specific exception instance, providing valuable information for debugging or logging. To see this refer [here](https://github.com/babutabhavya/Software-Development-SEM-1/blob/93f5cc24d9793c2ad99b2839f866d981105084e0/lms/library/serializers.py#L27)
 
 3. Validating request data in serialisers than in views
-Validation in serializers is preferable to in views because it centralizes data validation logic, promoting code reusability and ensuring consistent validation across different views. This approach also enhances maintainability by keeping data integrity concerns encapsulated within the serializer layer.
+Validation in serializers is preferable to in views because it centralizes data validation logic, promoting code reusability and ensuring consistent validation across different views. This approach also enhances maintainability by keeping data integrity concerns encapsulated within the serializer layer. To see this refer [here](https://github.com/babutabhavya/Software-Development-SEM-1/blob/93f5cc24d9793c2ad99b2839f866d981105084e0/lms/library/serializers.py#L21)
 
 4. MVC Architecture
-Django's MVT/MVC architecture promotes a clear separation of concerns, enhancing code organization and maintainability. It facilitates modular development by isolating data models, presentation logic, and HTML template rendering.
+Django's MVT/MVC architecture promotes a clear separation of concerns, enhancing code organization and maintainability. It facilitates modular development by isolating data models, presentation logic, and HTML template rendering. TO see this, refer [here](https://github.com/babutabhavya/Software-Development-SEM-1/tree/main/lms/book)
 
 5. Re-usability
-Implemented re-usability using fixtures in PyTest enhances test modularization by providing reusable setup, promoting cleaner and more maintainable test code. It ensures consistent test environments, facilitating reliable and reproducible testing scenarios.
+Implemented re-usability using fixtures in PyTest enhances test modularization by providing reusable setup, promoting cleaner and more maintainable test code. It ensures consistent test environments, facilitating reliable and reproducible testing scenarios. To see this, refer [here](https://github.com/babutabhavya/Software-Development-SEM-1/blob/93f5cc24d9793c2ad99b2839f866d981105084e0/lms/library/tests/test_library_views.py#L7)
 
 6. Seperation between test and dev environment
 Maintaining a clear separation between test and dev environments prevents unintended interference, ensuring that changes and experiments in the development environment do not impact the stability of testing scenarios. This demarcation supports reliable testing and accurate results.
 To see this refer [this](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/lms/.pytest.ini)
 
 7. Use of import-order package to correctly order imports
-By employing the "import-order" package, code's imports are neat and tidy, fostering clarity and teamwork. It ensures a consistent import order, making it simpler for everyone to understand and manage the project's dependencies. The follow an order in which the frameworks are imported first, then the third party outside the framework and then the internal modules are arranged.
+By employing the "import-order" package, code's imports are neat and tidy, fostering clarity and teamwork. It ensures a consistent import order, making it simpler for everyone to understand and manage the project's dependencies. The follow an order in which the frameworks are imported first, then the third party outside the framework and then the internal modules are arranged. To see this refer [here](https://github.com/babutabhavya/Software-Development-SEM-1/blob/93f5cc24d9793c2ad99b2839f866d981105084e0/Makefile#L20)
 
 
 ### B.) [Clean Code Development Cheat Sheet](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/docs/clean-code-development.pdf)
