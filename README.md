@@ -1,6 +1,6 @@
 # Library Management System
 
-#### **_Software Development Project, Masters of Computer Science by Bhavya Babuta, student at SRH, Berlin School of Technology_**
+#### ***Software Development Project, Masters of Computer Science by Bhavya Babuta, student at SRH, Berlin School of Technology***
 
 ## Table of Contents
 
@@ -60,6 +60,17 @@ Some of the git concepts can be well-viewed in the commit history as well as clo
 
 ## 3. Requirements Engineering
 
+### Functional Requirements
+
+- User Management
+Ability to create new years such that they can be assigned to libraries and books can be borrowed to them.
+
+- Borrowing and Returning:
+
+Users should be able to enquie about books and return them. The system can enforce due dates and send notifications for overdue books. Librarians should have the ability to manage and extend borrowing periods.
+
+### Non-Functional Requirements
+
 ---
 
 ## 4. Analysis Learning Unit
@@ -75,10 +86,39 @@ Some of the git concepts can be well-viewed in the commit history as well as clo
 - [Sonarcube](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/images/sonarcube/quality_gate_passed.png)
 - [Depandabot Alerts for Security Vulnerabilities](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/images/dependabot/dependabot.png)
 - [PyLint code ratings](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/images/pylint/pylint.png)
+- [pytest code coverage](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/images/pytest/pytest.png)
 
 ---
 
 ## 7. Clean Code Development
+
+### A.)
+
+1. Code Comments and Docstrings
+Code comments are like helpful notes to yourself and others, explaining how your code works and making it easier to understand.
+
+2. Exception Handling
+Using "as" in exception handling (eg. except Exception as e) is a good Python practice because it allows to catch and inspect the specific exception instance, providing valuable information for debugging or logging.
+
+3. Validating request data in serialisers than in views
+Validation in serializers is preferable to in views because it centralizes data validation logic, promoting code reusability and ensuring consistent validation across different views. This approach also enhances maintainability by keeping data integrity concerns encapsulated within the serializer layer.
+
+4. MVC Architecture
+Django's MVT/MVC architecture promotes a clear separation of concerns, enhancing code organization and maintainability. It facilitates modular development by isolating data models, presentation logic, and HTML template rendering.
+
+5. Re-usability
+Implemented re-usability using fixtures in PyTest enhances test modularization by providing reusable setup, promoting cleaner and more maintainable test code. It ensures consistent test environments, facilitating reliable and reproducible testing scenarios.
+
+6. Seperation between test and dev environment
+Maintaining a clear separation between test and dev environments prevents unintended interference, ensuring that changes and experiments in the development environment do not impact the stability of testing scenarios. This demarcation supports reliable testing and accurate results.
+
+7. Use of import-order package to correctly order imports
+By employing the "import-order" package, code's imports are neat and tidy, fostering clarity and teamwork. It ensures a consistent import order, making it simpler for everyone to understand and manage the project's dependencies. The follow an order in which the frameworks are imported first, then the third party outside the framework and then the internal modules are arranged.
+
+
+### B.)
+
+[Clean Code Development Cheat Sheet](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/docs/sonarcube/clean-code-development.pdf)
 
 ---
 
