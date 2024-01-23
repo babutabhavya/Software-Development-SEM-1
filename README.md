@@ -52,7 +52,7 @@ In my repository, I have made numerous commits, that helped me understand as wel
 - pull
 - force push
 - commit amend
-- pull requests
+- [pull requests](https://github.com/babutabhavya/Software-Development-SEM-1/pulls?q=is%3Apr+is%3Aclosed)
 - merge
 - set-origin
 - add-origin
@@ -66,6 +66,7 @@ In my repository, I have made numerous commits, that helped me understand as wel
     - Requires Python_CI build management and SonarQube checks to pass before merge
   - dev-branches
     - Requires Python_CI build management and SonarQube checks to pass before merge
+    - Need to be updated with the default branch
 - actions
 
 Some of the git concepts can be well-viewed in the commit history as well as closed pull requests in this repository
@@ -168,6 +169,7 @@ Implemented re-usability using fixtures in PyTest enhances test modularization b
 
 6. Seperation between test and dev environment
 Maintaining a clear separation between test and dev environments prevents unintended interference, ensuring that changes and experiments in the development environment do not impact the stability of testing scenarios. This demarcation supports reliable testing and accurate results.
+To see this refer [this](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/lms/.pytest.ini)
 
 7. Use of import-order package to correctly order imports
 By employing the "import-order" package, code's imports are neat and tidy, fostering clarity and teamwork. It ensures a consistent import order, making it simpler for everyone to understand and manage the project's dependencies. The follow an order in which the frameworks are imported first, then the third party outside the framework and then the internal modules are arranged.
@@ -196,6 +198,10 @@ The github actions is configured using a YAML file to execute the CI on pull req
 ---
 
 ## 9. Unit Tests
+
+[Test DIR 1](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/lms/library/tests/test_library_views.py)
+
+[Test DIR 2](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/lms/user/tests/test_user_views.py)
 
 The library choosen to perform unit tests for this project is pytest, enhanced using pytest-django and pytest-cov plugins.
 
