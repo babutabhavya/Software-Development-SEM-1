@@ -131,6 +131,8 @@ Some of the git concepts can be well-viewed in the commit history as well as clo
 
 ## 5. DDD
 
+[PDF](https://github.com/babutabhavya/Software-Development-SEM-1/blob/main/docs/ddd.pdf)
+
 ---
 
 ## 6. Metrics
